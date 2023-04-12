@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css form.css">
+    <title>webpage_copy</title>
+</head>
+<body>
+    <h1 class="heading">Survey Form</h1>
+    <form class="fomat">
+        <h4>Let us know how we can improve our service</h4>
+        <p>
+            *Name: <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+        </p>
+        <p>
+            *Email: <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </p>
+        <p>
+            *Age: <input type="number" name="age" id="age" placeholder="Age" required>
+        </p>
+        <p>
+            *Handphone: <input type="number" name="phone" id="phone" placeholder="Phone Number" required>
+        </p>
+        <p>
+            *First time playing escape Room? <select name="play" id="play" required>
+                <option value="">Select the option</option>
+                <option value="yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </p>
+        <p>
+            <legend>*Which game you want to play?</legend> 
+            Alcatraz <input type="radio" name="game" id="game" required>
+            Aokigahara <input type="radio" name="game" id="game" required>
+            Mausoleum <input type="radio" name="game" id="game" required>
+            Castiglione <input type="radio" name="game" id="game" required>            
+        </p>
+        <p>
+            <legend>Will you recommend the game to your friends?</legend>
+            Definitely <input type="radio" name="recommend" id="recommend">
+            Maybe <input type="radio" name="recommend" id="recommend">
+            No <input type="radio" name="recommend" id="recommend">
+        </p>
+        <p>
+            Any comments or suggestions? 
+            <textarea name="comment" id="comment" cols="50" rows="10" placeholder="Enter your comment here"></textarea>
+        </p>
+    </form>
+</body>
+</html>

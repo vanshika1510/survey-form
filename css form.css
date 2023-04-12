@@ -1,0 +1,18 @@
+.fomat{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: pink;
+    padding: 15px;
+    
+}
+.heading{
+    text-align: center;
+}
+h4{
+    text-align: center;
+
+}
